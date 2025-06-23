@@ -4,10 +4,9 @@ export function countries() {
   const COUNTRIES = "https://restcountries.com/v3.1/all?fields=name";
   function onInputClick() {
     fetch(COUNTRIES)
-      .then((value) => {
+      .then((value, event) => {
+        value = event.target.value;
         console.log(value);
-        console.log(value.body);
-        console.log(value.json());
         const COUNTRY = `https://restcountries.com/v3.1/name/${value}`;
         console.log(COUNTRY);
         // console.log(value);

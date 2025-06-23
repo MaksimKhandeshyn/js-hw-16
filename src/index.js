@@ -1,2 +1,2 @@
 import { countries } from "./js/fetchCountries";
-countries();
+_.debounce(countries, 500);
