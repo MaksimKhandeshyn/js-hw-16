@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/MaksimKhandeshyn/js-hw-16/issues"
   },
-  "homepage": "https://github.com/MaksimKhandeshyn/js-hw-16#readme",
+  "homepage": "maksimkhandeshyn.github.io/js-hw-16/",
   "dependencies": {
     "lodash.debounce": "^4.0.8"
   },
